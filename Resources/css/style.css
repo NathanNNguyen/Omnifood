@@ -343,6 +343,43 @@ input[type=submit]:active{
     margin-right: 10px;
 }
 
+/* -------CITIES------ */
+
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.city-feature {
+    margin-bottom: 5px;
+}
+
+
+
+
+/* -------LINKS------ */
+
+
+a:link,
+a:visited {
+    color: #cf6d17;
+    text-decoration: none;
+    border-bottom: 1px solid #cf6d17;
+    padding-bottom: 1px;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+
 
 
 
